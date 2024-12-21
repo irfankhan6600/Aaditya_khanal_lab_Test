@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Teaching</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Research Lab, Home, University of Tulsa">
+      <meta name="author" content="">
+      <!-- Le styles -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+      <link href="css/theme.css" rel="stylesheet">
+   </head>
+   <body>
+      <div class="container">
+         <div class="top-banner">
+            Join our team! We are looking for motivated Ph.D. & M.S. 
+            researchers in CCUS, UHS, Digital Rock Physics etc. to join us! <a href="#" target="_blank">Apply Now</a>
+         </div>
+         <header class="jumbotron subhead" id="overview">
+            <p class="lead"> University of Tulsa </p>
+            <h1>Aaditya Khanal Lab</h1>
+         </header>
+         <nav class="navbar">
+            <div class="navbar-inner">
+              <button class="nav-toggle" id="nav-toggle">&#9776; Menu</button>
+              <ul class="nav" id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="people.html">People</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="teaching.html">Teaching</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+         <hr>
+         <div class="row-fluid">
+            <div class="span3 bs-docs-sidebar" id="navparent">
+               <ul class="nav nav-list bs-docs-sidenav" data-spy="affix" data-offset-top="200" data-offset-bottom="260">
+                  <li><a href="#CHEN 3310"> Chemical Engineering Materials</a></li>
+                  <li><a href="#CHEN 3301"> Thermodynamics I</a></li>
+               </ul>
+            </div>
+            <div class="span8 offset1">
+               <section id="CHEN 3310">
+                  <div class="page-header">
+                     <h3><a href="">Chemical Engineering Materials</a></h3>
+                     <hr>
+                     <p>Chemical Engineering Materials: A course exploring the properties, selection, and applications 
+                        of materials in chemical engineering processes.</p>
+                     <p><b>Prerequisite: </b><a href=""><b>CHEM 310</b></a> and <a href=""><b>CHEM 320</b></a>.</p>
+                     <p><b>Semesters Taught:</b> Fall 2024.</p>
+                     <p><b>Course Information:</b> <a href="">Syllabus</a></p>
+                     <table class="table table-striped">
+                        <thead>
+                           <tr>
+                              <th>#</th>
+                              <th>Lecture</th>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td>1</td>
+                              <td><a href="">Introduction to Materials Science in Chemical Engineering.</a></td>
+                           </tr>
+                           <tr>
+                              <td>2</td>
+                              <td><a href="">Properties and Classification of Engineering Materials.</a></td>
+                           </tr>
+                           <tr>
+                              <td>3</td>
+                              <td><a href="">Thermodynamics and Phase Behavior of Materials.</a></td>
+                           </tr>
+                           <tr>
+                              <td>4</td>
+                              <td><a href="">Mechanical Properties and Material Failure. </a></td>
+                           </tr>
+                           <tr>
+                              <td>5</td>
+                              <td><a href="">Corrosion and Degradation of Materials. </a></td>
+                           </tr>
+                           <tr>
+                              <td>6</td>
+                              <td><a href="">Polymeric, Ceramic, and Composite Materials in Engineering Applications.</a></td>
+                           </tr>
+                           <tr>
+                              <td>7</td>
+                              <td><a href="">Material Selection and Design for Chemical Processes. </a></td>
+                           </tr>
+
+                        </tbody>
+                     </table>
+                  </div>
+               </section>
+               <section id="CHEN 3301">
+                  <div class="page-header">
+                     <h3><a href="">Thermodynamics I</a></h3>
+                     <hr>
+                     <p>A foundational course covering the principles of thermodynamics, 
+                        including energy transformations, properties of substances, and the laws governing energy systems. </p>
+                     <p><b>Prerequisite: </b><a href=""><b>CHEM 310</b></a> and <a href=""><b>CHEM 320</b></a>.</p>
+                     <p><b>Semesters Taught:</b> Fall 2024.</p>
+                  </div>
+               </section>
+            </div>
+         </div>
+      </div>
+      <footer id="footer">
+         <div class="container-fluid">
+            <div class="row-fluid">
+               <div class="span5">
+                  <h3>Contact Information</h3>
+                  <p><b>Office Hours: </b>Monday-Friday (8.00am - 5.00pm)</p>
+                  <p><b>Phone: </b>832-607-1689</p>
+                  <a href="aaditya-khanal@utulsa.edu">Email</a>
+               </div>
+               <div class="span2">
+                  <a><img src = "thumbs/Tulsa_Logo.png" alt="research-lab-logo"/></a>
+               </div>
+               <div class="span5">
+                  <h3>Address</h3>
+                  <p>University of Tulsa<br>
+                     3465 Keplinger Hall<br>
+                     Tulsa, Oklahoma
+                  </p>
+                  <a href="https://maps.app.goo.gl/3USUKLHW5gDjBtmp8">Show Map</a>
+               </div>
+            </div>
+         </div>
+      </footer>
+
+      <!-- Le javascript
+         ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="js/jquery-1.9.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script>
+         $(document).ready(function() {
+             $(document.body).scrollspy({
+                 target: "#navparent"
+             });
+         });
+         
+      </script>
+      <script>
+         document.addEventListener('DOMContentLoaded', function () {
+             const toggleButton = document.querySelector('.nav-toggle');
+             const navMenu = document.querySelector('.nav');
+     
+             toggleButton.addEventListener('click', function () {
+                 navMenu.classList.toggle('nav-open');
+             });
+         });
+     </script>
+   </body>
+</html>
