@@ -8,7 +8,7 @@ body {
 .container {
     width: 100%;
     max-width: 1000px; /* Retain the max-width for larger screens */
-    padding: 0 15px;   /* Add padding to avoid content touching the edges */
+    padding: 0 0px;   /* Add padding to avoid content touching the edges */
     margin: 0 auto;
 }
 .container>hr {
